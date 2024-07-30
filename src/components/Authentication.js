@@ -15,8 +15,8 @@ function Authentication(props) {
     };
 
   return (
-    <div>
-        <button onClick={signInWithGoogle}>Sign in with Google</button>
+    <div className='h-screen h-full flex justify-center items-center'>
+        <button onClick={signInWithGoogle} className='p-6 bg-blue-500 text-white font-bold text-[16px] rounded-[10px]'>Sign in with Google</button>
     </div>
   )
 }
