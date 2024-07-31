@@ -29,15 +29,15 @@ function App() {
   }
 
   return (
-    <div className="bg-slate-100">
+    <div>
       {
         room 
         ?
-        <div>
+        <div className="flex justify-center items-center">
           <Chat room={room}/>
         </div>
         :
-        <div className="h-screen flex justify-center items-center h-full">
+        <div className="h-screen flex justify-center items-center h-full bg-slate-100">
           <div className="flex flex-col items-center gap-6">
             <div>
               <label className="text-[20px] font-bold">Enter the Room:</label>
