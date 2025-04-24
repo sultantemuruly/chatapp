@@ -13,13 +13,6 @@ const firebaseConfig = {
   storageBucket: process.env.REACT_APP_STORAGEBUCKET,
   messagingSenderId: process.env.REACT_APP_MESSAGINGSENDERID,
   appId: process.env.REACT_APP_APPID
-
-  // apiKey: "AIzaSyDE2k_wpVSpOHxHKPQ9zmwNj6GlnlqPq54",
-  // authDomain: "chatapp-5fa54.firebaseapp.com",
-  // projectId: "chatapp-5fa54",
-  // storageBucket: "chatapp-5fa54.appspot.com",
-  // messagingSenderId: "562003573251",
-  // appId: "1:562003573251:web:e4b05be4e665152e70ac36"
 };
 
 // Initialize Firebase
